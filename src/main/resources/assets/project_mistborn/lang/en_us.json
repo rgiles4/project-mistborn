@@ -1,8 +1,14 @@
 {
   "item.project_mistborn.steel_ingot": "Steel Ingot",
   "item.project_mistborn.steel_nugget": "Steel Nugget",
+  "item.project_mistborn.tin_ingot": "Tin Ingot",
+  "item.project_mistborn.tin_nugget": "Tin Nugget",
+  "item.project_mistborn.raw_tin": "Raw Tin",
 
   "block.project_mistborn.steel_block": "Steel Block",
+  "block.project_mistborn.tin_block": "Tin Block",
+
+  "block.project_mistborn.tin_ore": "Tin Ore",
 
   "creativetab.project_mistborn_tab": "Project Mistborn"
 }

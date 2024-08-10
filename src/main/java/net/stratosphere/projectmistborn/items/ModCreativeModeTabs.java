@@ -20,12 +20,22 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STEEL.get())) // Tab Icon
                     .title(Component.translatable("creativetab.project_mistborn_tab")) // Tab Name
                     .displayItems((pParameters, pOutput) -> { // Items to appear in the creative tab; This can be done with a for-each loop as well. See comment below
+
                         // ITEMS //
-                        pOutput.accept(ModItems.STEEL.get());
+                        // Raw/Minerals -> Nuggets -> Ingots -> Misc //
+                        pOutput.accept(ModItems.RAW_TIN.get());
+                        pOutput.accept(ModItems.TIN_NUGGET.get());
                         pOutput.accept(ModItems.STEEL_NUGGET.get());
+                        pOutput.accept(ModItems.TIN.get());
+                        pOutput.accept(ModItems.STEEL.get());
 
                         // BLOCKS //
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
+                        pOutput.accept(ModBlocks.TIN_BLOCK.get());
+
+                        // ORES //
+                        pOutput.accept(ModBlocks.TIN_ORE.get());
+
                     })
                     .build());
 

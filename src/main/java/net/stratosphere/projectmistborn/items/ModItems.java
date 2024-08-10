@@ -11,8 +11,11 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ProjectMistborn.MOD_ID);
 
+    // Steel Items
     public static final RegistryObject<Item> STEEL = ITEMS.register("steel_ingot",
         () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

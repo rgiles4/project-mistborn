@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.stratosphere.projectmistborn.ProjectMistborn;
+import net.stratosphere.projectmistborn.block.ModBlocks;
 
 import java.awt.*;
 
@@ -19,7 +20,12 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STEEL.get())) // Tab Icon
                     .title(Component.translatable("creativetab.project_mistborn_tab")) // Tab Name
                     .displayItems((pParameters, pOutput) -> { // Items to appear in the creative tab; This can be done with a for-each loop as well. See comment below
+                        // ITEMS //
                         pOutput.accept(ModItems.STEEL.get());
+                        pOutput.accept(ModItems.STEEL_NUGGET.get());
+
+                        // BLOCKS //
+                        pOutput.accept(ModBlocks.STEEL_BLOCK.get());
                     })
                     .build());
 

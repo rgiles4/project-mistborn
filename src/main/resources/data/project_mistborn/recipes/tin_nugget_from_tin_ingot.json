@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tin",
+  "ingredients": [
+    {
+      "item": "project_mistborn:tin_ingot"
+    }
+  ],
+  "result": {
+    "id": "project_mistborn:tin_nugget",
+    "count": 9
+  }
+}

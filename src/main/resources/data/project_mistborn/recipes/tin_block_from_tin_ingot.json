@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "tin",
+  "key": {
+    "#": {
+      "item": "project_mistborn:tin_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "id": "project_mistborn:tin_block",
+    "count": 1
+  }
+}

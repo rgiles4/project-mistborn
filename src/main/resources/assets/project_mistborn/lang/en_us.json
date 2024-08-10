@@ -1,5 +1,8 @@
 {
   "item.project_mistborn.steel_ingot": "Steel Ingot",
+  "item.project_mistborn.steel_nugget": "Steel Nugget",
+
+  "block.project_mistborn.steel_block": "Steel Block",
 
   "creativetab.project_mistborn_tab": "Project Mistborn"
 }

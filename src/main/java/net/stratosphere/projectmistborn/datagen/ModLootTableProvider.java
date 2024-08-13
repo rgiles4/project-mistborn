@@ -14,9 +14,5 @@ public class ModLootTableProvider {
     public static LootTableProvider create(PackOutput output, CompletableFuture<HolderLookup.Provider> pRegistries) {
         return new LootTableProvider(output, Set.of(), List.of(
                 new LootTableProvider.SubProviderEntry(ModBlockLootTables::new, LootContextParamSets.BLOCK)), pRegistries);
-
-        //        return new LootTableProvider(output, Set.of(), List.of(
-//                new LootTableProvider.SubProviderEntry(ModBlockLootTables::new, LootContextParamSets.BLOCK)
-//        ));
     }
 }

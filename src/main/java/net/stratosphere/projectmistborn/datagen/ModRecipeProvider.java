@@ -17,7 +17,7 @@ import java.util.concurrent.CompletableFuture;
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
 
     // Items that produce the same result when smelted should be added to the same list
-    private static final List<ItemLike> TIN_SMELTABLES = List.of(ModItems.RAW_TIN.get());
+    private static final List<ItemLike> TIN_SMELTABLES = List.of(ModItems.RAW_TIN.get(), ModBlocks.TIN_ORE.get());
 
     public ModRecipeProvider(PackOutput pOutput, CompletableFuture<HolderLookup.Provider> pRegistries) {
         super(pOutput, pRegistries);

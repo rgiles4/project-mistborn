@@ -1,0 +1,5 @@
+// 1.20.6	2024-08-12T19:49:09.7814443	Tags for minecraft:block mod id project_mistborn
+ddd2bc49e25c19dd5bc3cc35978d390dfc06deb5 data/minecraft/tags/blocks/mineable/pickaxe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json
+d87f6f1ac8fd01928b4477112a8abfbd9984e14e data/minecraft/tags/blocks/needs_iron_tool.json
+1a57f0db2d7df42f40d504cdd19e3996829c0a21 data/minecraft/tags/blocks/needs_stone_tool.json

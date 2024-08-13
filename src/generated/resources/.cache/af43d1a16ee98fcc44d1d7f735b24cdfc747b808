@@ -1,0 +1,10 @@
+// 1.20.6	2024-08-12T19:49:09.7804469	Block States: project_mistborn
+ae7019b61c69904a9ed5920ef72d3b48ec0a3dbf assets/project_mistborn/blockstates/steel_block.json
+95b36df88a9f1aceb7c324a231dba4e99a1c709a assets/project_mistborn/blockstates/tin_block.json
+5d8f943163595ca1c0daf853653da4f746d165b1 assets/project_mistborn/blockstates/tin_ore.json
+aab66746eab47b18eeafa336e05f78f69d460e87 assets/project_mistborn/models/block/steel_block.json
+707e1c5a5a9d1256b8a9503ea7641bab83376ec2 assets/project_mistborn/models/block/tin_block.json
+b8298f53849746e538d60277f41dd081033d4cf2 assets/project_mistborn/models/block/tin_ore.json
+33a5a8a224c2ca024ba74f6e36d270e1aed64391 assets/project_mistborn/models/item/steel_block.json
+beb8acae77fcf7de10badcbee14dc3dd0e0fa11b assets/project_mistborn/models/item/tin_block.json
+1b85a280964906c7dc9cc355056cd72fb9dc3923 assets/project_mistborn/models/item/tin_ore.json

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "project_mistbron:steel_from_nuggets"
+        "recipe": "project_mistborn:steel_from_nuggets"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "project_mistbron:steel_from_nuggets"
+      "project_mistborn:steel_from_nuggets"
     ]
   }
 }

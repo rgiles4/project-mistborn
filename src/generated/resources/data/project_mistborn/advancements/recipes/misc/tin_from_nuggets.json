@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "project_mistbron:tin_from_block"
+        "recipe": "project_mistborn:tin_from_nuggets"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_tin_block": {
+    "has_tin_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "project_mistborn:tin_block"
+            "items": "project_mistborn:tin_ingot"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_tin_block"
+      "has_tin_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
-      "project_mistbron:tin_from_block"
+      "project_mistborn:tin_from_nuggets"
     ]
   }
 }

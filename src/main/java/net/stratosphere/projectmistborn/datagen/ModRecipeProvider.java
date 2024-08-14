@@ -46,7 +46,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("SSS")
                 .define('S', ModItems.STEEL_NUGGET.get())
                 .unlockedBy(getHasName(ModItems.STEEL.get()), has(ModItems.STEEL.get()))
-                .save(recipeOutput, "project_mistbron:steel_from_nuggets");
+                .save(recipeOutput, "project_mistborn:steel_from_nuggets");
 
         // Tin Block from Ingots
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TIN_BLOCK.get())
@@ -64,7 +64,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("SSS")
                 .define('S', ModItems.TIN_NUGGET.get())
                 .unlockedBy(getHasName(ModItems.TIN.get()), has(ModItems.TIN.get()))
-                .save(recipeOutput, "project_mistbron:tin_from_nuggets");
+                .save(recipeOutput, "project_mistborn:tin_from_nuggets");
 
         // SHAPELESS CRAFTING RECIPES //
         // Steel Ingots from Block
@@ -83,7 +83,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.TIN.get(), 9)
                 .requires(ModBlocks.TIN_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.TIN_BLOCK.get()), has(ModBlocks.TIN_BLOCK.get()))
-                .save(recipeOutput, "project_mistbron:tin_from_block");
+                .save(recipeOutput, "project_mistborn:tin_from_block");
 
         // Tin Nuggets from Ingots
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.TIN_NUGGET.get(), 9)

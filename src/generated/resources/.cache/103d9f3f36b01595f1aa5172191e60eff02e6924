@@ -1,0 +1,4 @@
+// 1.20.6	2024-08-14T14:03:25.7365914	Registries
+3e7235297e10532d4cc8aa2a9cb919afe2a29934 data/project_mistborn/forge/biome_modifier/add_tin_ore.json
+e2c83720f3911caad9318fdb7e394df81e73409b data/project_mistborn/worldgen/configured_feature/tin_ore.json
+abfc4bce3723abde7079acf040bd83871a641289 data/project_mistborn/worldgen/placed_feature/tin_ore_placed.json
